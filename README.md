@@ -55,7 +55,7 @@ Testing the webserver
 # PROGRAM:
 Type your code here
 # OUTPUT:
-![Alt Text](images/webserver1.png)
+![Alt Text](https://github.com/Kamal-Raj-A/webserver/blob/main/images/webserver1.png)
 
 # RESULT:
 
