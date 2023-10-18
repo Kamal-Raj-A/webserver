@@ -1,6 +1,6 @@
 # Developing a Simple Webserver
-Name: Karthi Govindharaju
-ID: ISAI005
+Name: Kamal raj
+Ref no: 23012941
 
 # AIM:
 
@@ -17,8 +17,33 @@ HTML content creation is done
 Design of webserver workflow
 
 ## Step 3:
+``````
+from http.server inport HTTPServer, BaseHTTPRequestHandler
+content = """
 
-Implementation using Python code
+content = """
+<html>
+<head>
+<title>Student Details</title>
+</head>
+<body>
+<h1>Name:Sai Vishal</h1>
+<h1>Department:AI&DS</h1>
+<h1>Reference Number:23013576<h1>
+</body>
+</html>
+"""
+
+class HelloHandler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.send_header('Content-type', 'text/html; charset=utf-8')
+        self.end_headers()
+        self.wfile.write(content.encode())
+
+server_address = ('', 80)
+httpd = HTTPServer(server_address, HelloHandler)
+httpd.serve_forever()``````
 
 ## Step 4:
 
@@ -30,6 +55,7 @@ Testing the webserver
 # PROGRAM:
 Type your code here
 # OUTPUT:
+![Alt Text](images/webserver1.png)
 
 # RESULT:
 
