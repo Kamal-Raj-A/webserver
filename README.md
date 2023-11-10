@@ -35,7 +35,8 @@ content = """
 <html>
 <head>
 <title>Top Five Web Application Development Frameworks</title>
-</head>
+</head>![webserver](https://github.com/Kamal-Raj-A/webserver/assets/145742556/8f1ea06e-de1d-4951-b924-fac37b02a5ba)
+
 <body>
 <h1>1.Django</h1>
 <h2>2.MEAN Stack</h2>
@@ -57,7 +58,7 @@ httpd.serve_forever()
 ``````
 
 # OUTPUT:
-![Alt Text](https://github.com/Kamal-Raj-A/webserver/blob/main/images/webserver1.png)
+![webserver](https://github.com/Kamal-Raj-A/webserver/assets/145742556/512701ca-deb8-466a-be9b-3c7505a526ed)
 
 # RESULT:
 
