@@ -17,6 +17,16 @@ HTML content creation is done
 Design of webserver workflow
 
 ## Step 3:
+Implementation of python code
+## Step 4:
+
+Serving the HTML pages.
+
+## Step 5:
+
+Testing the webserver
+# PROGRAM:
+Type your code here
 ``````
 from http.server inport HTTPServer, BaseHTTPRequestHandler
 content = """
@@ -24,12 +34,12 @@ content = """
 content = """
 <html>
 <head>
-<title>Student Details</title>
+<title>Top Five Web Application Development Frameworks</title>
 </head>
 <body>
-<h1>Name:Sai Vishal</h1>
-<h1>Department:AI&DS</h1>
-<h1>Reference Number:23013576<h1>
+<h1>1.Django</h1>
+<h2>2.MEAN Stack</h2>
+<h3>3.React<h3>
 </body>
 </html>
 """
@@ -43,17 +53,9 @@ class HelloHandler(BaseHTTPRequestHandler):
 
 server_address = ('', 80)
 httpd = HTTPServer(server_address, HelloHandler)
-httpd.serve_forever()``````
+httpd.serve_forever()
+``````
 
-## Step 4:
-
-Serving the HTML pages.
-
-## Step 5:
-
-Testing the webserver
-# PROGRAM:
-Type your code here
 # OUTPUT:
 ![Alt Text](https://github.com/Kamal-Raj-A/webserver/blob/main/images/webserver1.png)
 
