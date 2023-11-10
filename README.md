@@ -37,9 +37,9 @@ content = """
 </head>
 <body>
 <h1>Top Five Web Apllication Development Framework</h1>
-<h1>1.Django</h1>
-<h2>2.MEAN Stack</h2>
-<h3>3.React<h3>
+<h2>1.Django</h2>
+<h3>2.MEAN Stack</h3>
+<h4>3.React</h4>
 </body>
 </html>
 """
