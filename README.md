@@ -31,13 +31,12 @@ Type your code here
 from http.server inport HTTPServer, BaseHTTPRequestHandler
 content = """
 
-content = """
 <html>
 <head>
-<title>Top Five Web Application Development Frameworks</title>
-</head>![webserver](https://github.com/Kamal-Raj-A/webserver/assets/145742556/8f1ea06e-de1d-4951-b924-fac37b02a5ba)
-
+<title>webservers</title>
+</head>
 <body>
+<h1>Top Five Web Apllication Development Framework</h1>
 <h1>1.Django</h1>
 <h2>2.MEAN Stack</h2>
 <h3>3.React<h3>
@@ -58,7 +57,7 @@ httpd.serve_forever()
 ``````
 
 # OUTPUT:
-![webserver](https://github.com/Kamal-Raj-A/webserver/assets/145742556/512701ca-deb8-466a-be9b-3c7505a526ed)
+![webserver png](https://github.com/Kamal-Raj-A/webserver/assets/145742556/8e9c0502-e168-4b6b-93d0-c9ff7000d6f1)
 
 # RESULT:
 
